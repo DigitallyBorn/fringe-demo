@@ -5,6 +5,10 @@
     "express": "^4.10.8",
     "public-google-calendar": "0.0.2"
   },
+  "scripts": {
+    "prepublish": "gulp build",
+    "start": "node server.js"
+  },
   "devDependencies": {
     "gulp": "~3.8.10",
     "gulp-autoprefixer": "~2.0.0",
