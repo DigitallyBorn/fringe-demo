@@ -1,7 +1,10 @@
 {
   "name": "googleCalTest",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.10.8",
+    "public-google-calendar": "0.0.2"
+  },
   "devDependencies": {
     "gulp": "~3.8.10",
     "gulp-autoprefixer": "~2.0.0",
