@@ -3,13 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "express": "^4.10.8",
-    "public-google-calendar": "0.0.2"
-  },
-  "scripts": {
-    "prepublish": "gulp build",
-    "start": "node server.js"
-  },
-  "devDependencies": {
+    "public-google-calendar": "0.0.2",
     "gulp": "~3.8.10",
     "gulp-autoprefixer": "~2.0.0",
     "gulp-angular-templatecache": "~1.4.2",
@@ -41,13 +35,19 @@
     "karma-jasmine": "~0.3.1",
     "karma-phantomjs-launcher": "~0.1.4",
     "require-dir": "~0.1.0",
-    "browser-sync": "~1.7.1",
-    "http-proxy": "~1.7.0",
-    "chalk": "~0.5.1",
-    "protractor": "~1.4.0",
     "uglify-save-license": "~0.4.1",
     "jade": "~1.8.1",
     "handlebars": "~2.0.0"
+  },
+  "scripts": {
+    "prepublish": "gulp build",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "browser-sync": "~1.7.1",
+    "http-proxy": "~1.7.0",
+    "chalk": "~0.5.1",
+    "protractor": "~1.4.0"
   },
   "engines": {
     "node": ">=0.10.0"
